@@ -1,0 +1,16 @@
+
+#googleMap{
+	margin-left: 0px !important;
+	padding-left: 0px !important;
+}
+footer{
+	font-weight: bold !important;
+	height: 30px;
+	width: 100%;
+	background: orange;
+	background-color: orange rgba(0, 0, 0, 0.5);
+	clear: both;
+	text-align: center;
+	margin-top: 3% !important;
+	line-height: 200% !important;
+}

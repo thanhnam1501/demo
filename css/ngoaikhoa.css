@@ -1,0 +1,141 @@
+#NgoaiKhoa{
+	clear: both;
+	height: auto;
+    position: relative; 
+}
+
+#NgoaiKhoa >img{
+    width: 5%;
+    height: 30px;
+    position: absolute;
+    top: 7%;
+    left: 47%;
+    
+}
+
+#blog{
+
+	clear: both;
+	height: auto;
+	text-align: justify;
+    position: relative;
+
+}
+#blog>img{
+    width: 5%;
+    height: 30px;
+    position: absolute;
+    top: 15%;
+    left: 47%;
+    
+}
+
+.blog{
+	
+	float: left;
+}
+.blog img{
+	height:200px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	
+}
+h3{
+	font-weight: bold !important;
+}
+.gallery-photos {
+    padding: 20px;
+}
+.gallery-photos .big-photo {
+    display: block;
+    background-color: #ffffff;
+    padding: 3px;
+    border: 1px solid #e7e7e7;
+    margin-right: 210px;
+}
+.gallery-photos .big-photo img {
+    display: block;
+    max-width: 100%;
+    height: 550px;
+    margin: 0 auto;
+}
+.gallery-photos .photo-thumbnails {
+    float: right;
+    width: 210px;
+}
+.gallery-photos .photo-thumbnails .thumbnail {
+    float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 30%;
+    height: 63px;
+    cursor: pointer;
+    padding: 3px;
+    border: 1px solid #e7e7e7;
+    margin-left: 3.33333%;
+    margin-bottom: 6px;
+    opacity: 0.4;
+}
+.gallery-photos .photo-thumbnails .thumbnail.current {
+    opacity: 1;
+    background-color: #ffffff;
+}
+.gallery-photos .photo-thumbnails .thumbnail .thumbnail-inner {
+    height: 100%;
+    overflow: hidden;
+}
+.gallery-photos .photo-thumbnails .thumbnail img {
+    display: block;
+    width: auto;
+    max-height: 100%;
+    margin: 0 auto;
+}
+#big-photo >img{
+    width: 100%;
+}
+@media (max-width: 991px){
+    .photo-thumbnails{
+        float: none !important;
+        width: 100%;
+    }
+    .gallery-photos{
+        width: 100%;
+    }
+    .big-photo{
+        width: 100%;
+    }
+}
+@media (max-width: 768px){
+    #NgoaiKhoa>img{
+    width: 5%;
+    height: 30px;
+    position: absolute;
+    top: 5% !important;
+    left: 47%;
+    }
+    #blog>img{
+    width: 5%;
+    height: 30px;
+    position: absolute;
+    top: 7.5%;
+    left: 47%;
+}
+}
+@media (max-width: 425px){
+        #NgoaiKhoa>img{
+    width: 5%;
+    height: 30px;
+    position: absolute;
+    top: 4% !important;
+    left: 47%;
+    }
+    #blog>img{
+    width: 5%;
+    height: 30px;
+    position: absolute;
+    top: 4%;
+    left: 47%;
+    } 
+}

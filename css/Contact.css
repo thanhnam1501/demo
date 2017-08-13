@@ -1,0 +1,36 @@
+li{
+	 font-family: MYRIADPRO-COND;
+	 font-size: 20px;
+}
+#ContactUs{
+  position: relative;
+  font-family: MYRIADPRO-COND;
+}
+#ContactUs>img{
+  width: 5%;
+  height: 30px;
+  position: absolute;
+top: 6%;
+	left: 47%;
+}
+.address{
+	background: #fff !important;
+}
+@media (max-width: 768px){
+	#ContactUs>img{
+  width: 5%;
+  height: 30px;
+  position: absolute;
+top: 4.5%;
+	left: 47%;
+}
+}
+@media (max-width: 425px){
+	#ContactUs>img{
+ 	width: 5%;
+ 	height: 30px;
+	position: absolute;
+	top: 4%;
+	left: 47%;
+}
+}

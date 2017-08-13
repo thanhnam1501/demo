@@ -1,0 +1,156 @@
+#OurTeam{
+	margin-bottom: 5%;
+	position: relative;
+}
+
+#Staff{
+	margin-bottom: 20px;
+}
+.Staff{
+	position: relative;
+}
+.Staff img{
+	width: 80%;
+	height: 150px;
+	margin-left: 10%;
+	
+
+}
+.thongtin{
+	position: absolute;
+	width: 68.5%;
+	height: 66%;
+	background: #d8d8d8;
+	margin-left: 10.5%;
+	top: 2.3%;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+
+	text-align: center;
+}
+.thongtin >i{
+	font-size: 200% !important;
+}
+.Staff >div>a>span{
+	margin-left: 40%;
+	margin-top: 35%;
+	font-size: 200%;
+
+}
+
+.thongtin:hover{
+	padding-top: 13px;
+	background: #d8d8d8;
+	background-color: #d8d8d8(0, 0, 0, 0.5);
+	opacity: 0.9;	
+}
+.Staff h4{
+	text-align: center;
+}
+.Staff h6{
+	text-align: center;
+}
+#Achievements{
+	clear: both;
+	background-image: url("../img/award.jpg");
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	border-radius: 5px;
+	background-repeat: no-repeat;	
+}
+.Achievements{
+	float: left;
+	width: 20%;
+	margin: 2% 2% 2% 2%;
+	height: 130px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 30px;
+	border-radius: 5px;
+}
+#OurTeam >img{
+	width: 5%;
+	height: 30px;
+	position: absolute;
+	top: 9%;
+	left: 47%;
+	
+}
+
+.Achievements p{
+	padding-top: 30px;
+	text-align: center;
+}
+
+.Achievements span{
+	margin-left: 40%;
+	opacity: 0.6;
+	font-size: 20px;
+}
+.glyphicon{
+	height: 20px;
+	font-size: 200% !important;
+	position: absolute !important;
+	top: 15px;
+	left: 5px;
+	transition: all 2s;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
+}
+.Achievements:hover .glyphicon{
+	transform: scale(1.5);	
+}
+#Achievements >div{
+	margin-left: 4%;
+
+}
+@media only screen and (max-width: 991px){
+  #Achievements >div{
+	margin-left: 10%;	
+	width: 80%;
+}
+.Achievements{
+	width: 60% !important;
+	margin: 50px 20% 2% 15%;
+	height: 150px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 30px;
+	border-radius: 5px;
+}
+.Achievements span{
+	margin-left: 40%;
+	opacity: 0.6;
+	font-size: 20px;
+}
+.Staff img{
+	width: 50%;
+	height: 150px;
+	margin-left: 25%;
+
+}
+.Staff{
+	position: relative;
+	margin-bottom: 5% !important;
+}
+.Staff>div{
+	width: 47%;
+	left: 16%;
+}
+
+}
+@media (max-width: 767px){
+	.Staff>div{
+	width: 46%;
+	left: 16.5%;
+	height: 70%;
+}
+}
+@media (max-width: 425px){
+	#OurTeam >img{
+	width: 5%;
+	height: 30px;
+	position: absolute;
+	top: 2%;
+	left: 47%;xx
+}
+}

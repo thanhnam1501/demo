@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+        @font-face {
+            font-family: MYRIADPRO-BOLD;
+            src: url(../Project2/fonts/MYRIADPRO-BOLD.OTF);
+        }
+        
+        @font-face {
+            font-family: MYRIADPRO-COND;
+            src: url(../Project2/fonts/MYRIADPRO-COND.OTF);
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta name ="viewport" content="width-device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../Project2/css/sld.css">
+    <link rel="stylesheet" type="text/css" href="../Project2/css/AboutUs.css">
+    <link rel="stylesheet" type="text/css" href="../Project2/css/Services.css">
+    <link rel="stylesheet" type="text/css" href="../Project2/css/ngoaikhoa.css">
+    <link rel="stylesheet" type="text/css" href="../Project2/css/OurTeam.css">
+    <link rel="stylesheet" type="text/css" href="../Project2/css/Footer.css">
+    <link rel="stylesheet" type="text/css" href="../Project2/css/Project.css">
+    <link rel="stylesheet" type="text/css" href="../Project2/css/Contact.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" href="../Project2/css/style.css">
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="animate.css">
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script type="text/javascript" src="../Project2/js/contact.js"></script>
+    <script type="text/javascript" src="../Project2/js/ngoaikhoa.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+
+            jQuery('.photo-thumbnails .thumbnail').click(function() {
+                // Setting class "current" to the thumbnail that was clicked.
+                jQuery('.photo-thumbnails .thumbnail').removeClass('current');
+                jQuery(this).addClass('current');
+                // Getting "src" attribute of the image that was clicked.
+                var path = jQuery(this).find('img').attr('src');
+                // Setting "src" attribute of the big image.
+                jQuery('#big-photo img').attr('src', path);
+            });
+
+        });
+    </script>
+    <script src="js/modernizr.js"></script>
+    <!-- Modernizr -->
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+ 
+
+    <script type="text/javascript" src="../Project2/js/map.js"></script>
+    <title>Thành Nam Company</title>
+</head>
+
+<body class="container-fluid" id="home">
+    <nav class="navbar navbar-default navbar-fixed-top container" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home" style="font-size: 200%;line-height: 50%;font-weight: bold; color: #ff6600;">Thành Nam Corp</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse menutab">
+                <ul class="nav navbar-nav ">
+                    <li class="active"><a class="link-1" href="#home">Trang Chủ</a>
+                    </li>
+                    <li><a class="link-1" href="#OurTeam">Nhà Sáng Lập</a>
+                    </li>
+                    <li><a class="link-1" href="#Services">Dịch Vụ</a>
+                    </li>
+                    <li><a class="link-1" href="#Project">Dự Án</a>
+                    </li>
+                    <li><a class="link-1" href="#NgoaiKhoa">Hoạt Động</a>
+                    </li>
+                    <li><a class="link-1" href="#blog">Tin Tức</a>
+                    </li>
+                    <li><a class="link-1" href="#ContactUs">Liên Hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+    <!-- slide ảnh-->
+    <div class="slide1">
+        <div id="carousel-id" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="2" class=""></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active  sld">
+                    <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="../Project2/img/future.png">
+                    <div class="container">
+                        <div class="carousel-caption psld">
+                            <h1 class="wow bounceInDown" data-wow-duration="2s">XÂY DỰNG TƯƠNG LAI</h1>
+                           
+                            <p class="wow bounceInUp" data-wow-duration="2s"><a class="btn btn-lg btn-primary" href="#" role="button">Xem Ngay</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="item sld">
+                    <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="../Project2/img/slider22.png">
+                    <div class="container">
+                        <div class="carousel-caption psld">
+                            <h1 class="wow zoomInLeft" data-wow-duration="2s">XÂY DỰNG BIỂU TƯỢNG</h1>
+                            <p class="wow fadeInRight" data-wow-duration="2s"><a class="btn btn-lg btn-primary" href="#" role="button">Xem Ngay</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item sld">
+                    <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="../Project2/img/ketnoi.png" ">
+                    <div class="container">
+                        <div class="carousel-caption psld">
+                            <h1 class="wow bounceInLeft" data-wow-duration="2s">KẾT NỐI THẾ GIỚI</h1>
+                
+                            <p class="wow bounceInRight" data-wow-duration="2s"><a class="btn btn-lg btn-primary" href="#" role="button">Xem Ngay</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+    </div>
+
+    <div id="AboutUs" class="container  ">
+        <h2 class="wow bounceInLeft" data-wow-duration="1s">WELCOME TO <span style="color: #ff6600;">THÀNH NAM</span></h2>
+        <hr/>
+        <img src="../Project2/img/construction.png">
+        <p class="text"><a style="color: #ff6600 ">Thành Nam</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <br/>
+        <br/>
+        <div id="introduce" class="container">
+            <div class="row">
+                <div class="col-md-6 container">
+                    <img src="../Project2/img/company.jpg" class="img-responsive" alt="Image">
+                </div>
+                <div class="col-md-6 container">
+                    <p><a style="color: #ff6600 ">Thành Nam</a> Company ipsusm dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a style="color: #ff6600 ">Thành Nam</a>  sunt in culpa qui officia deserunt mollit anim id est laborum....
+                        <br> <a style="color: #ff6600 ">Thành Nam</a> ipsum dolor sit amet, consectetur adipisicing elit. Maxime enim perferendis qui sunt voluptatem animi doloribus saepe minus odio id, suscipit dolores inventore, eos ea. Quasi, quae, ipsam. Similique, beatae.
+                        <br> <a style="color: #ff6600 ">Thành Nam</a> ipsum dolor sit amet, consectetur adipisicing elit. Debitis illo dolorem ex, magnam amet. Iure culpa, omnis sint tempora ex beatae suscipit accusamus, deserunt, repellendus natus harum aspernatur illum neque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis beatae itaque numqu
+                        <br>
+                    </p>
+                    <button type="button" class="btn btn-primary ReadMore">Đọc tiếp</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="OurTeam" class="container">
+        <h2 class="wow bounceInDown" data-wow-duration="1s">QUẢN TRỊ VIÊN</h2>
+        <hr/>
+        <img src="../Project2/img/construction.png">
+        <div id="Staff" class="container">
+            <div class="Staff col-md-3 col-sm-12">     	
+            		<img class="wow flipInX img-thumbnail" src="../Project/img/nam.jpg" class="img-responsive img-circle" alt="Image">
+                <h4>Nguyễn Thành Nam</h4>
+                <h6>Tổng Giám Đốc</h6>
+                <div class="thongtin">
+					<h5 style="font-weight: bold;">Hello!</h5>
+						Always The Best!<br/>
+                        <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a><i class="fa fa-envelope" aria-hidden="true"></i> </a>
+                  
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="Staff col-md-3 col-sm-12">
+                <img class="wow flipInX img-thumbnail" data-wow-duration="1.5s" src="../Project/img/nam.jpg" class="img-responsive img-circle" alt="Image">
+                <h4>Nguyễn Thành Nam</h4>
+                <h6>Tổng Giám Đốc</h6>
+                <div class="thongtin">
+                    <h5 style="font-weight: bold;">Hello!</h5>
+						Always The Best!<br/>
+                        <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a><i class="fa fa-envelope" aria-hidden="true"></i>
+                         <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </a>
+                </div>
+            </div>
+            <div class="Staff col-md-3 col-sm-12">
+                <img class="wow flipInX img-thumbnail" data-wow-duration="2s" src="../Project/img/nam.jpg" class="img-responsive img-circle" alt="Image">
+                <h4>Nguyễn Thành Nam</h4>
+                <h6>Tổng Giám Đốc</h6>
+                <div class="thongtin">
+                    	<h5 style="font-weight: bold;">Hello!</h5>
+						Always The Best!<br/>
+                        <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a><i class="fa fa-envelope" aria-hidden="true"></i>
+                         <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </a>
+                </div>
+            </div>
+            <div class="Staff col-md-3 col-sm-12">
+                <img class="wow flipInX img-thumbnail" data-wow-duration="2.5s" src="../Project/img/nam.jpg" class="img-responsive img-circle" alt="Image">
+                <h4>Nguyễn Thành Nam</h4>
+                <h6>Tổng Giám Đốc</h6>
+                <div class="thongtin">
+                    	<h5 style="font-weight: bold;">Hello!</h5>
+						Always The Best!<br/>
+                        <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a><i class="fa fa-envelope" aria-hidden="true"></i>
+                         <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="Achievements" class="container">
+            <div class="row">
+                <div class="Achievements col-md-3 col-xs-12 wow fadeInRight tada" data-wow-duration="1s">
+                    <span class="glyphicon">&#x26fa;</span>
+                    <p>195<br/>
+                    Công Trình</p>
+                </div>
+
+                <div class="Achievements col-md-3 col-xs-12 wow fadeInRight swing" data-wow-duration="1.5s">
+                    <span class="glyphicon">&#xe008;</span>
+                    <p>10000</br>
+                    Nhân Viên</p>
+                </div>
+
+                <div class="Achievements col-md-3 col-xs-12 wow fadeInRight" data-wow-duration="2s">
+                    <span class="glyphicon">&#xe125;</span>
+                    <p>151</br>
+                    Hoàn Thành</p>
+                </div>
+
+                <div class="Achievements col-md-3 col-xs-12 wow fadeInRight" data-wow-duration="2.5s">
+                    <span class="glyphicon">&#xe135;</span>
+                    <p>30<br/>
+                    Quốc Gia</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Services" class="container">
+        <h2 class="wow bounceInRight">DỊCH VỤ</h2>
+        <hr/>
+        <img src="../Project2/img/construction.png">
+        <div class="w3-third container wow rollIn">
+            <img class="wow pulse" data-wow-duration="2s"  src="../Project2/img/hotel.jpg">
+            <h3>Khách Sạn</h3>
+            <p>Chúng tôi đã xây dựng vô số các khách sạn trên 30 quốc gia, với chất lượng từ 3 sao đến 5 sao liền (kinh chưa :))</p>
+        </div>
+
+        <div class="w3-third container wow rollIn">
+            <img class="wow pulse" data-wow-duration="2s"  src="../Project2/img/restaurant.jpg">
+            <h3>Nhà Hàng</h3>
+            <p>Chúng tôi đã xây dựng vô số các khách sạn trên 30 quốc gia, với chất lượng từ 3 sao đến 5 sao liền (kinh chưa :))</p>
+        </div>
+
+        <div class="w3-third sv3 container wow rollIn">
+            <img class="wow pulse" data-wow-duration="2s" src="../Project2/img/pool.jpg">
+            <h3>Bể Bơi</h3>
+            <p>Chúng tôi đã xây dựng vô số các khách sạn trên 30 quốc gia, với chất lượng từ 3 sao đến 5 sao liền (kinh chưa :))</p>
+        </div>
+        <div class="w3-third container wow rollIn">
+            <img class="wow pulse" data-wow-duration="2s"  src="../Project2/img/tradecenter.jpg">
+            <h3>Trung Tâm Thương Mại</h3>
+            <p>Chúng tôi đã xây dựng vô số các khách sạn trên 30 quốc gia, với chất lượng từ 3 sao đến 5 sao liền (kinh chưa :))</p>
+        </div>
+
+        <div class="w3-third container wow rollIn">
+            <img class="wow pulse" data-wow-duration="2s" src="../Project2/img/school.jpg">
+            <h3>Trường Học Cao Cấp</h3>
+            <p>Chúng tôi đã xây dựng vô số các khách sạn trên 30 quốc gia, với chất lượng từ 3 sao đến 5 sao liền (kinh chưa :))</p>
+        </div>
+
+        <div class="w3-third sv3 container wow rollIn">
+            <img class="wow pulse" data-wow-duration="2s" src="../Project2/img/Apartments.jpg">
+            <h3>Chung Cư Cao Tầng</h3>
+            <p>Chúng tôi đã xây dựng vô số các khách sạn trên 30 quốc gia, với chất lượng từ 3 sao đến 5 sao liền (kinh chưa :))</p>
+        </div>
+
+    </div>
+
+
+    <div id="Project" class="container">
+        <h2 class="wow bounceInUp">DỰ ÁN</h2>
+        <hr/>
+        <img src="../Project2/img/construction.png">
+        <div class="container">
+            <div class="Project col-md-4 wow fadeInLeft">
+                <div><button type="button" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true">&nbsp;Đọc Thêm</i></button></div>
+                <img class="img-thumbnail" src="../Project2/img/project/aqua-bay-ecopark.jpg">
+                <h3>Aqua Bay Ecopark</h3>
+                <p>Chúng tôi đã xây dựng vô số các khách sạn trên 30 quốc gia, với chất lượng từ 3 sao đến 5 sao liền (kinh chưa :))</p>
+            </div>
+
+            <div class="Project col-md-4 wow fadeInDown">
+                 <div><button type="button" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true">&nbsp;Đọc Thêm</i></button></div>
+                <img class="img-thumbnail" src="../Project2/img/project/Dubai2.jpg">
+                <h3>Mohammed Bin Rashid</h3>
+                <p>Chúng tôi đã xây dựng vô số các khách sạn trên 30 quốc gia, với chất lượng từ 3 sao đến 5 sao liền (kinh chưa :))</p>
+            </div>
+
+            <div class="Project col-md-4 wow fadeInRight">
+                 <div><button type="button" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true">&nbsp;Đọc Thêm</i></button></div>
+                <img class="img-thumbnail" src="../Project2/img/project/Dubai4.jpg">
+                <h3>Viceroy Dubai Palm Jumeirah </h3>
+                <p>Chúng tôi đã xây dựng vô số các khách sạn trên 30 quốc gia, với chất lượng từ 3 sao đến 5 sao liền (kinh chưa :))</p>
+            </div>
+
+             <div  class="Project col-md-4 wow fadeInLeft">
+                 <div><button type="button" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true">&nbsp;Đọc Thêm</i></button></div>
+                <img class="img-thumbnail" src="../Project2/img/project/royal.jpg">
+                <h3>Royal City</h3>
+                <p>Chúng tôi đã xây dựng vô số các khách sạn trên 30 quốc gia, với chất lượng từ 3 sao đến 5 sao liền (kinh chưa :))</p>
+            </div>
+
+             <div class="Project col-md-4 wow fadeInDown">
+              <div><button type="button" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true">&nbsp;Đọc Thêm</i></button></div>
+              	<img class="img-thumbnail" src="../Project2/img/project/clarke-quay.png">
+                <h3>Clarke Quay - Singapore</h3>
+                <p>Chúng tôi đã xây dựng vô số các khách sạn trên 30 quốc gia, với chất lượng từ 3 sao đến 5 sao liền (kinh chưa :))</p>
+            </div>
+
+            <div class="Project col-md-4 wow fadeInRight">
+                <div><button type="button" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true">&nbsp;Đọc Thêm</i></button></div>
+                <img class="img-thumbnail" src="../Project2/img/project/Sims-Urban-Oasis.jpg">
+                <h3>Sims-Urban-Oasis</h3>
+                <p>Chúng tôi đã xây dựng vô số các khách sạn trên 30 quốc gia, với chất lượng từ 3 sao đến 5 sao liền (kinh chưa :))</p>
+            </div>
+
+            <div class="Project col-md-4 wow fadeInLeft">
+               <div><button type="button" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true">&nbsp;Đọc Thêm</i></button></div>
+                <img class="img-thumbnail" src="../Project2/img/project/The Interlace - Singapore.png">
+                <h3>The Interlace - Singapore</h3>
+                <p>Chúng tôi đã xây dựng vô số các khách sạn trên 30 quốc gia, với chất lượng từ 3 sao đến 5 sao liền (kinh chưa :))</p>
+            </div>
+
+            <div class="Project col-md-4 wow fadeInDown">
+                <div><button type="button" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true">&nbsp;Đọc Thêm</i></button></div>
+                <img class="img-thumbnail" src="../Project2/img/project/The-Atrium.png">
+                <h3>The Atrium</h3>
+                <p>Chúng tôi đã xây dựng vô số các khách sạn trên 30 quốc gia, với chất lượng từ 3 sao đến 5 sao liền (kinh chưa :))</p>
+            </div>
+
+            <div class="Project col-md-4 wow fadeInRight">
+              <div><button type="button" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true">&nbsp;Đọc Thêm</i></button></div>
+                <img class="img-thumbnail" src="../Project2/img/project/Wallich-Residence.jpg">
+                <h3>Wallich-Residence</h3>
+                <p>Chúng tôi đã xây dựng vô số các khách sạn trên 30 quốc gia, với chất lượng từ 3 sao đến 5 sao liền (kinh chưa :))</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="NgoaiKhoa" class="container">
+        <h2 class="wow bounceInRight">HOẠT ĐỘNG</h2>
+        <hr/>
+        <img src="../Project2/img/construction.png">
+            <div class="gallery-photos clearfix">
+                <div class="photo-thumbnails wow fadeInDown">
+                    <div class="thumbnail current">
+                        <div class="thumbnail-inner"> <img src="../Project2/img/hoatdong/1.jpg" alt="" /> </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="thumbnail-inner"> <img src="../Project2/img/hoatdong/2.jpg" alt="" /> </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="thumbnail-inner"> <img src="../Project2/img/hoatdong/3.jpg" alt="" /> </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="thumbnail-inner"> <img src="../Project2/img/hoatdong/4.jpg" alt="" /> </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="thumbnail-inner"> <img src="../Project2/img/hoatdong/5.jpg" alt="" /> </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="thumbnail-inner"> <img src="../Project2/img/hoatdong/6.jpg" alt="" /> </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="thumbnail-inner"> <img src="../Project2/img/hoatdong/7.jpg" alt="" /> </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="thumbnail-inner"> <img src="../Project2/img/hoatdong/8.jpg" alt="" /> </div>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="thumbnail-inner"> <img src="../Project2/img/hoatdong/9.jpg" alt="" /> </div>
+                    </div>
+
+                </div>
+                <div id="big-photo" class="big-photo wow rotateInDownLeft"> <img src="../Project2/img/hoatdong/1.jpg" alt="" /> </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="blog" class="container">
+        <h2 class="wow bounceInDown">TIN TỨC</h2>
+        <hr/>
+        <img src="../Project2/img/construction.png">
+        <div class="container">
+            <div class="blog col-md-6 wow slideInLeft">
+                <div>
+                    <img src="../Project2/img/1234.jpg">
+                    <h3>Nhà đầu tư tài ba</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <button type="button" class="btn btn-primary ReadMore">Đọc tiếp</button>
+                </div>
+            </div>
+            <div class="blog col-md-6 wow slideInRight">
+
+                <div>
+                    <img src="../Project2/img/12.jpg">
+                    <h3>Nhà đầu tư tài ba</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <button type="button" class="btn btn-primary ReadMore">Đọc tiếp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="ContactUs" class="container">
+        <h2 class="wow bounceInRight">LIÊN HỆ</h2>
+        <hr/>
+        <img src="../Project2/img/construction.png">
+        <form class="cd-form floating-labels">
+            <fieldset>
+                <legend>Thông tin tài khoản</legend>
+
+                <div class="error-message">
+                    <p>Xin vui lòng điền đầy đủ thông tin</p>
+                </div>
+
+                <div class="icon">
+                    <label class="cd-label" for="cd-name">Họ và Tên</label>
+                    <input class="user" type="text" name="cd-name" id="cd-name" required>
+                </div>
+
+                <div class="icon">
+                    <label class="cd-label" for="cd-company">Tên công ty</label>
+                    <input class="company" type="text" name="cd-company" id="cd-company">
+                </div>
+
+                <div class="icon">
+                    <label class="cd-label" for="cd-email">Email</label>
+                    <input class="email error" type="email" name="cd-email" id="cd-email" required>
+                </div>
+                <div class="icon">
+                    <label class="cd-label" for="cd-textarea">Nội dung</label>
+                    <textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Send Message">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+ 
+   <div class="address container" style="background: #d8d8d8;">
+   		<div class="col-md-4 contact">
+   			<ul>
+   				<li><h3>Liên hệ:</h3></li>
+   				<li>Địa chỉ: Hà Đông-Hà Nội</li>
+   				<li>Số Điện thoại: 01698219669</li>
+   				<li>Email: Thanhnam1501@gmail.com</li>
+   			</ul>
+   		</div>
+   		<div id="googleMap" class="col-md-8 container-fluid" style=" height: 400px;border-radius: 5px;"></div>
+   </div> 	
+    </footer>
+   
+    <footer class="container">
+        Trang web này được thiết kế bởi Nam Lemon
+    </footer>
+    <script type="text/javascript" src="../Project2/js/menu.js"></script>
+     <script type="text/javascript" src="../Project2/js/menu2.js"></script>
+</body>
+
+</html>
